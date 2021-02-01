@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+}
+
+#nav {
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
+
+#nav-links {
+    color: gold;
+}
+
+#nav-links-active {
+    color: gold;
+    border: 1px solid gold;
+}
+
+#nav-links-active:hover {
+    color: white;
+    background-color: gold;
+}
+
+#nav-links:hover {
+    color: white;
+    background-color: gold;
+}
+
+#a-logo {
+    max-width: 70%;
+}
+
+#logo {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+
+#hamburger {
+    border: 0px;
+    padding: 0;
+}
+
+.nav-bottom {
+    height: 1px;
+    border-bottom: 0.5px solid gold;
+    margin-top: 90.6px;
+}
+
+.image {
+    background-image: url("images/PHOTO-2021-02-01-09-46-33.jpg");
+    filter: brightness(70%);
+    position: relative;
+    /* Full height */
+    height: 600px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50%;
+}
+
+
+
