@@ -65,6 +65,7 @@ body{
     text-align: center;
     color: white;
     display: inline-block;
+    font-size: 40%;
     width: 40%;
     margin: 0;
     position: absolute;
@@ -72,6 +73,13 @@ body{
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+/* .cr-content p {
+    font-size: 10%;
+} */
+.cr-content h3 {
+    font-size: 1.2em;
 }
 
 .text {
@@ -101,7 +109,8 @@ body{
     border-radius: 10px;
     box-shadow: 0 1px 3px rgb(0 0 0 / 40%);
     transition: all .2s ease-in-out;
-    width: 400px;
+    width: 80%;
+    max-width: 400px;
     padding: 50px;
     background-color: white;
 }
@@ -152,6 +161,86 @@ footer {
       display: inline-block;
       text-align: right;
       width: 60%;
+  }
+
+  @media only screen and (min-width: 350px){
+    .cr-content {
+        text-align: center;
+        color: white;
+        display: inline-block;
+        font-size: 50%;
+        width: 40%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+  }
+
+  @media only screen and (min-width: 380px){
+    .cr-content {
+        text-align: center;
+        color: white;
+        display: inline-block;
+        font-size: 60%;
+        width: 40%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+  }
+
+  @media only screen and (min-width: 450px){
+    .cr-content {
+        text-align: center;
+        color: white;
+        display: inline-block;
+        font-size: 70%;
+        width: 40%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+  }
+
+  @media only screen and (min-width: 550px){
+    .cr-content {
+        text-align: center;
+        color: white;
+        display: inline-block;
+        font-size: 70%;
+        width: 40%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+  }
+
+  @media only screen and (min-width: 600px){
+    .cr-content {
+        text-align: center;
+        color: white;
+        display: inline-block;
+        font-size: 100%;
+        width: 40%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
   }
 
   @media only screen and (max-width: 930px) {
