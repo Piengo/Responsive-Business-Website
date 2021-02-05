@@ -332,15 +332,12 @@ body{
     background-color: white;
 }
 
+
 .mes-div {
     background-color: whitesmoke; 
     text-align: center;
     margin: auto;
     width: 100%;
-}
-
-.boxed-items:hover {
-    transform: scale(1.1);
 }
 
 footer {
@@ -607,7 +604,7 @@ footer {
     }
   }
 
-  input[type=text], select, textarea {
+  input[type=text], input[type=email], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
