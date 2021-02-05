@@ -332,6 +332,13 @@ body{
     background-color: white;
 }
 
+.mes-div {
+    background-color: whitesmoke; 
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
 .boxed-items:hover {
     transform: scale(1.1);
 }
@@ -600,5 +607,15 @@ footer {
     }
   }
 
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
 
 
