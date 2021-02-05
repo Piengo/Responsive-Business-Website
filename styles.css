@@ -341,27 +341,24 @@ body{
 }
 
 footer {
-    background-color: gray;
-    color: white;
+    background-color: white;
+    color: black;
+    border-top: 1px solid gold;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
     position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
-.footer {
-      text-align: center;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      padding-top: 10px;
-  }
+footer p {
+    transform: scale(0.8);
+}
 
-  .footer h6 {
-      color: gold;
-  }
-
-  .footer-cpy {
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      display: block;
-      text-align: center;
-      width: 100%;
-  }
+footer span {
+    color: gold;
+}
 
   .carousel-fade .carousel-item {
     opacity: 0;
