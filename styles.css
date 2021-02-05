@@ -1,7 +1,6 @@
 body{
     margin: 0;
     background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 10%, rgba(237,238,237,1) 90%);
 }
 
 #nav {
@@ -340,23 +339,22 @@ body{
     width: 100%;
 }
 
-footer {
+.footer {
+    position: relative;
     background-color: white;
     color: black;
     border-top: 1px solid gold;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top: 10px;
-    position: relative;
-    bottom: 0;
     width: 100%;
+    height: 50px;
 }
 
-footer p {
+.footer p {
     transform: scale(0.8);
 }
 
-footer span {
+.footer span {
     color: gold;
 }
 
