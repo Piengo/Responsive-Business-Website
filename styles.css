@@ -326,7 +326,6 @@
     margin-bottom: 30px;
     border: 1px solid white;
     border-radius: 10px;
-    /* box-shadow: 0 1px 3px rgb(0 0 0 / 40%); */
     transition: all .2s ease-in-out;
     width: 80%;
     max-width: 400px;
@@ -339,9 +338,18 @@
 
 
 .mes-div {
-    background-color: whitesmoke; 
+    background-color: #4b4b4b; 
     text-align: center;
     margin: auto;
+    width: 100%;
+}
+
+.mes-div-dr {
+    background-color: #4b4b4b; 
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
     width: 100%;
 }
 
@@ -349,7 +357,6 @@
     position: relative;
     background-color: white;
     color: black;
-    /* border-top: 1px solid gold; */
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 100%;
@@ -515,7 +522,6 @@
 
   #dr-header {
     height: 200px;
-    background-color: gray;
   }
 
   #dr-header h3 {
@@ -544,7 +550,7 @@
   }
 
   .dr-image p {
-    color: black;
+    color: white;
     font-size: 10px;
     margin-left: auto;
     margin-right: auto;
