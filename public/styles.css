@@ -521,7 +521,7 @@
   }
 
   #dr-header {
-    height: 200px;
+    height: 300px;
   }
 
   #dr-header h3 {
@@ -606,7 +606,7 @@
     }
   }
 
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 700px) {
     #dr-header {
         height: 400px;
     }
