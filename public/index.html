@@ -213,7 +213,7 @@
             <div id="contact" class="mes-div">
                 <div class="boxed-items">
                   <h3>Send us a message!</h3>
-                  <form method="post" onsubmit="sendEmail()">
+                  <form id="form" method="post" onsubmit="sendEmail()">
       
                     <input type="text" id="Name" name="Name" placeholder="Your name.." required>
                     <input type="email" id="Email" name="Email" placeholder="Your email.." required>
@@ -242,20 +242,27 @@
 
             function sendEmail(){
                 event.preventDefault()
-                var nme = document.getElementById("Name").value
-                var email = document.getElementById("Email").value
-                var message = document.getElementById("Message").value
+                var nme = document.getElementById("Name").value;
+                var email = document.getElementById("Email").value;
+                var message = document.getElementById("Message").value;
                 
                 $.ajax({
-                    url: "https://formsubmit.co/ajax/nosandjay@gmail.com",
+                    url: "https://formsubmit.co/ajax/5dac4cba2d9d7facb98ee360283056a4",
                     method: "POST",
                     data: {
-                        name: "FormSubmit",
-                        message: "test"
+                        name: nme,
+                        message: message + "\n" + "\n" + "email: " + email 
                     },
                     dataType: "json"
-                })
+                });
+                thanks();
+            }
 
+            function thanks() {
+                var contact = document.getElementById("form");
+                var div = document.createElement('div');
+                div.textContent = 'Submitted successfully!';
+                contact.parentNode.replaceChild(div, contact);
             }
         </script>
 
