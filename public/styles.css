@@ -521,7 +521,7 @@
   }
 
   #dr-header {
-    height: 300px;
+    height: 330px;
   }
 
   #dr-header h3 {
@@ -544,6 +544,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    max-width: 200px;
     border-radius: 50%; 
     padding: 20px;
     transform: scale(2.5);
@@ -591,6 +592,7 @@
   @media only screen and (min-width: 860px) {
     .dr-image p {
         margin-top: 120px;
+        font-size: 150%;
       }
   }
 
@@ -600,15 +602,27 @@
       }
   }
 
+  @media only screen and (min-width: 1125px) {
+    .dr-image p {
+        margin-top: 200px;
+      }
+  }
+
   @media only screen and (min-width: 450px) {
     #dr-header {
-        height: 300px;
+        height: 330px;
     }
   }
 
   @media only screen and (min-width: 700px) {
     #dr-header {
-        height: 400px;
+        height: 430px;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    #dr-header {
+        height: 530px;
     }
   }
 
