@@ -82,6 +82,10 @@
     font-size: 1.2em;
 }
 
+.cr-content p {
+    margin-bottom: 0px;
+}
+
 .text {
     color: white;
     position: absolute;
@@ -430,7 +434,7 @@
     }
   }
 
-  @media only screen and (min-width: 380px){
+  @media only screen and (min-width: 390px){
     .cr-content {
         text-align: center;
         color: white;
@@ -443,6 +447,9 @@
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
+    }
+    #cr-btn {
+        margin-top: 5px;
     }
   }
 
@@ -459,6 +466,9 @@
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
+    }
+    #cr-btn {
+        margin-top: 1rem;
     }
   }
 
@@ -514,9 +524,23 @@
     }
   }
 
-  @media only screen and (min-width: 1125px) {
+  @media only screen and (min-width: 900px) {
     #carouselExampleIndicators{
-        margin-top: 5%;
+        margin-top: 0%;
+    }
+  }
+
+  @media only screen and (min-width: 1125px) {
+    #carouselExampleIndicators img{
+        height: 500px;
+    }
+
+    #carouselExampleIndicatorss img {
+        height: 500px;
+    }
+
+    #carouselExampleIndicatorsss img {
+        height: 500px;
     }
   }
 
@@ -637,4 +661,46 @@
     resize: vertical;
   }
 
+  .inline-el-block {
+      padding: 30px;
+  }
+
+  .inline-elements {
+      display: inline-block;
+      width: 180px;
+      border: 1px solid white;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+  }
+
+  .inline-elements i {
+      font-size: 96px;
+      color: gold;
+  }
+
+  .inline-elements h6 {
+      margin: 10px;
+  }
+
+  @media only screen and (min-width: 945px){
+    #middle {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+  }
+
+  @media only screen and (min-width: 990px){
+    #middle {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+  }
+
+  @media only screen and (min-width: 1125px){
+    #middle {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+  }
 
