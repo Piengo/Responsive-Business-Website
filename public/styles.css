@@ -708,3 +708,21 @@
     }
   }
 
+  @media only screen and (max-width: 409px){
+    .email {
+        font-size: 90%;
+    }
+  }
+
+  @media only screen and (max-width: 370px){
+    .email {
+        font-size: 85%;
+    }
+  }
+
+  @media only screen and (max-width: 340px){
+    .email {
+        font-size: 75%;
+    }
+  }
+
