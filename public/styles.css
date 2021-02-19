@@ -340,6 +340,10 @@
     color: gold;
 }
 
+.boxed-items i {
+    color: gold;
+}
+
 .boxed-items p {
     color: white;
 }
@@ -731,6 +735,18 @@
   }
 
   #cv-img a {
+      color:gold
+  }
+
+  #loc img {
+      max-height: 400px;
+  }
+
+  #loc h3 {
+      color: gold
+  }
+
+  #loc i {
       color:gold
   }
 
